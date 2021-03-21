@@ -107,7 +107,7 @@ content:
     content:
       - layout: left
         title: University of Essex
-        sub_title: BSc Computer Science (2.1)
+        sub_title: BSc Computer Science
         caption: 2012 - 2015
         # quote: >
         #   Short institution or course description (optional)
@@ -121,7 +121,7 @@ content:
 
       - layout: left
         title: Colchester Institute
-        sub_title: Music Technology (Distinction)
+        sub_title: Music Technology
         caption: 2009 - 2012
         # quote: >
         #   Short institution or course description (optional)

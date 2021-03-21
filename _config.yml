@@ -100,7 +100,7 @@ content:
         link:
         #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Built and maintained cloud infrastructure of customers using cloud platforms like Amazon Web Services. As well as maintaining customer infrastructure, contributing to internal software projects. As part of the support duties, actively write documentation and build up knowledge bases as well as engage with customers.
+          Built and maintained cloud infrastructure of customers using cloud platforms like Amazon Web Services. As well as maintaining customer infrastructure, contributed to internal software projects. As part of the support duties, actively wrote documentation and built up knowledge bases as well as engage with customers.
 
   - title: Education
     layout: list

@@ -92,7 +92,7 @@ content:
         link:
         #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Supporting customer operations via support tickets and phone calls. Responding to alerts and escalating where necessary whilst prioritising more important incidents. Recommending infrastructure improvements and adding documentation around processes not already documented. On-boarding new customers via requirements capture, migrating applications to AWS and re-architecting existing infrastructure.
+          Supporting customer operations via support tickets and phone calls. Responding to alerts and escalating where necessary whilst prioritising more important incidents. Recommending infrastructure improvements and adding documentation around processes not already documented. On-boarding new customers via requirements capture, migrating applications to AWS and re-architecting existing infrastructure. Worked with e-commerce customers to scale up production environments before putting thier sale events live.
       - layout: left
         title: Ngineered
         sub_title: DevOps Engineer

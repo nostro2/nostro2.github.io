@@ -48,7 +48,7 @@ linkedin_username: 4wh3xnsr1nis
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name's Dan and I'm a system administrator that loves all things automation. I have experience building and supporting customer porjects on a wide range of services offered by Amazon Web Services. As well as keeping the the lights on, I like to get my hands dirty developing AWS Lambda functions and trying new technologies out.
+  Hello! My name's Dan and I'm a system administrator that loves all things automation. I have experience building and supporting customer projects on a wide range of services offered by Amazon Web Services. As well as keeping the the lights on, I like to get my hands dirty developing AWS Lambda functions and trying new technologies out.
 
   I'm currently working at KCOM as a DevOps Engineer, supporting new and existing AWS based projects.
 

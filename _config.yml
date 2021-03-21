@@ -1,39 +1,39 @@
 # Site
-repository: sproogen/resume-theme
+repository:
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Daniel R.
+title: DevOps Engineer
+email:
+website:
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+twitter_username:
+github_username:  nostro2
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username:
+linkedin_username: 4wh3xnsr1nis
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,72 +48,123 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hello! My name's Dan and I'm a system administrator that loves all things automation. I have experience building and supporting customer porjects on a wide range of services offered by Amazon Web Services. As well as keeping the the lights on, I like to get my hands dirty developing AWS Lambda functions and trying new technologies out.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I'm currently working at KCOM as a DevOps Engineer, supporting new and existing AWS based projects.
+
+  Skills:
+  `AWS` `Bash` `Python` `Linux` `CI/CD` `IaC` `Git` `Network Engineering` `Cloud Security`
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: Project name
+  #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       link_text: Link Text
+  #       additional_links:
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       quote: >
+  #         Short overview of the project (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description about the work on/with the project
+  - title: Experience
+    layout: list
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+      - layout: top-left
+        title: KCOM
+        sub_title: DevOps Engineer
+        caption: June 2018 - Current
+        link: https://www.kcom.com
+        #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Provisioning cloud resources for new and existing customer projects using internally maintained CloudFormation templates, developing new template features where necessary. Responsible for reviewing and merging code, maintaining current projects and handing projects over to support teams via mentoring and documentation. Upholding DevOps principles with automation, deployment pipelines and immutable infrastructure while avoiding manual changes in the AWS console. Prioritising the use of AWS CloudFormation orchestrated using Python.
+      - layout: left
+        title: EveryCity
+        sub_title: DevOps Engineer
+        caption: October 2016 - June 2018
+        link:
+        #quote: > Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Supporting customer operations via support tickets and phone calls. Responding to alerts and escalating where necessary whilst prioritising more important incidents. Recommending infrastructure improvements and adding documentation around processes not already documented. On-boarding new customers via requirements capture, migrating applications to AWS and re-architecting existing infrastructure.
+      - layout: left
+        title: Ngineered
+        sub_title: DevOps Engineer
+        caption: June 2015 - September 2016
+        link:
+        #quote: > Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Built and maintained cloud infrastructure of customers using cloud platforms like Amazon Web Services. As well as maintaining customer infrastructure, contributing to internal software projects. As part of the support duties, actively write documentation and build up knowledge bases as well as engage with customers.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: University of Essex
+        sub_title: BSc Computer Science (2.1)
+        caption: 2012 - 2015
+        # quote: >
+        #   Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+
+
+
+          Relevant modules include:
+
+            `Network Engineering` `Operating Systems` `Application Programming` `Computer Security` `Mathematics for Computing`
+
+      - layout: top-left
+        title: Colchester Institute
+        sub_title: Music Technology (Distinction)
+        caption: 2009 - 2012
+        # quote: >
+        #   Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+
+
+  - title: Certifications
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+        title: AWS Certified DevOps Engineer - Professional
+        caption: Issued October 2020 - Expires October 2023
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: AWS Certified Solutions Architect - Associate
+        caption: Issued December 2017 - Expires December 2020
+      - layout: left
+        title: Cisco CCNA
+        caption: Issued 2016
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Volunteer Experience
+    layout: list
+    content:
+      - layout: top-left
+        title: YMCA
+        sub_title: Music Tutor
+        caption: 2010 - 2017
+        #link: https://kcom.com
+        #quote: > Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Worked closely with youth workers and volunteers to ensure young people within the local community could develop their own music related skills. Tutored young people starting bands in music improvisation and involved in the planning of live music fund raisers whilst employing skills gained at BTEC to sound engineer events.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Away from the office I'm a long time Debian user that likes to spend time jamming on my guitar. I've been playing bass guitar for over 15 years and have performed gigs in the past as part of a heavy funk band.
+
+      I'm always interested in hearing about the latest developments in green technology.
+
+      When I'm not feeling creative you'll probably find me playing Elite: Dangerous or watching a show like "The Expanse".
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings

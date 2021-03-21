@@ -48,9 +48,9 @@ linkedin_username: 4wh3xnsr1nis
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Dan and I'm a system administrator that loves all things automation. I have experience building and supporting customer projects on a wide range of services offered by Amazon Web Services. As well as keeping the the lights on, I like to get my hands dirty developing AWS Lambda functions and trying new technologies out.
+  Hello! My name is Dan and I'm an AWS Certified DevOps Professional that loves all things automation. I have experience building and supporting customer projects on a wide range of services offered by Amazon Web Services. Some of my most used services include: `CloudFormation`, `EC2` and `CodePipeline`. As well as keeping the the lights on, I like to get my hands dirty developing AWS `Lambda` functions and trying new technologies out.
 
-  I'm currently working at KCOM as a DevOps Engineer, supporting new and existing AWS based projects.
+  I'm currently working at KCOM as a DevOps Engineer, supporting new and existing AWS based projects using an infrastructure as code approach.
 
   Skills:
   `AWS` `Bash` `Python` `Linux` `CI/CD` `IaC` `Git` `Network Engineering` `Cloud Security`
@@ -102,6 +102,19 @@ content:
         description: | # this will include new lines to allow paragraphs
           Built and maintained cloud infrastructure of customers using cloud platforms like Amazon Web Services. As well as maintaining customer infrastructure, contributed to internal software projects. As part of the support duties, actively wrote documentation and built up knowledge bases as well as engage with customers.
 
+  - title: Certifications
+    layout: list
+    content:
+      - layout: left
+        title: AWS Certified DevOps Engineer - Professional
+        caption: Issued October 2020 - Expires October 2023
+      - layout: left
+        title: AWS Certified Solutions Architect - Associate
+        caption: Issued December 2017 - Expires December 2020
+      - layout: left
+        title: Cisco CCNA
+        caption: Issued 2016
+
   - title: Education
     layout: list
     content:
@@ -127,20 +140,6 @@ content:
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
 
-
-  - title: Certifications
-    layout: list
-    content:
-      - layout: left
-        title: AWS Certified DevOps Engineer - Professional
-        caption: Issued October 2020 - Expires October 2023
-      - layout: left
-        title: AWS Certified Solutions Architect - Associate
-        caption: Issued December 2017 - Expires December 2020
-      - layout: left
-        title: Cisco CCNA
-        caption: Issued 2016
-
   - title: Volunteer Experience
     layout: list
     content:
@@ -161,7 +160,7 @@ content:
 
       I'm always interested in hearing about the latest developments in green technologies.
 
-      When I'm not feeling creative you'll probably find me on Xbox or watching a some science fiction.
+      When I'm not feeling creative you'll probably find me on Xbox or watching some science fiction.
 
 # Footer
 footer_show_references: false

@@ -156,11 +156,10 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      Away from the office, I'm a long time Linux user that likes to spend time jamming on my guitar. I've been playing bass guitar for over 15 years and have performed gigs in the past as part of a heavy funk band.
+      Away from the office, I'm a long time Debian Linux user that spends too much time writing Discord bots. Long time bass player of over 15 years and have performed gigs in the past as part of a heavy alternative band.
+      
+      Always interested in hearing about the latest developments in green technologies and sustainable life choices.
 
-      I'm always interested in hearing about the latest developments in green technologies.
-
-      When I'm not feeling creative you'll probably find me on Xbox or watching science fiction shows.
 
 # Footer
 footer_show_references: false

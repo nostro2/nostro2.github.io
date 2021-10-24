@@ -78,7 +78,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: Nasstar _(previously KCOM)_
+        title: Nasstar (previously KCOM)
         sub_title: DevOps Engineer
         caption: June 2018 - Current
         link: https://www.nasstar.com

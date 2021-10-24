@@ -48,9 +48,9 @@ linkedin_username: 4wh3xnsr1nis
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Dan and I'm an AWS Certified DevOps Professional that loves all things automation. I have experience building and supporting customer projects on a wide range of services offered by Amazon Web Services. Some of my favourite services include: `CloudFormation`, `EC2` and `CodePipeline`. As well as keeping the the lights on, I like to get my hands dirty developing AWS `Lambda` functions and trying new technologies out.
+  Hello! My name is Dan and I'm an AWS Certified DevOps Professional that loves all things automation. I have experience building and supporting customer projects on a wide range of services offered by Amazon Web Services. Some of my favourite services include: `CloudFormation`, `EC2` and `Codepipeline`. As part of keeping the lights on, I enjoy writing Python scripts that interact with AWS API to make tasks quicker and more repeatable.
 
-  I'm currently working at KCOM as a DevOps Engineer, supporting new and existing AWS based projects using an infrastructure as code approach.
+  I'm currently working at Nasstar (previously KCOM) as a DevOps Engineer, supporting new and existing AWS based projects using an infrastructure as code approach.
 
   Skills:
   `AWS` `Bash` `Python` `Linux` `CI/CD` `IaC` `Git` `Network Engineering` `Cloud Security`
@@ -78,13 +78,13 @@ content:
     layout: list
     content:
       - layout: left
-        title: KCOM
+        title: Nasstar (previously KCOM)
         sub_title: DevOps Engineer
         caption: June 2018 - Current
-        link: https://www.kcom.com
+        link: https://www.nasstar.com
         #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Provisioning cloud resources for new and existing customer projects using internally maintained CloudFormation templates, developing new template features where necessary. Responsible for reviewing and merging code, maintaining current projects and handing projects over to support teams via mentoring and documentation. Upholding DevOps principles with automation, deployment pipelines and immutable infrastructure while avoiding manual changes in the AWS console. Prioritising the use of AWS CloudFormation orchestrated using Python.
+          Provisioning cloud resources for new and existing customer projects using internally maintained CloudFormation templates and developing new template features where necessary. Responsible for reviewing and merging code, maintaining current projects and handing projects over to revlevant teams via mentoring and documentation. Upholding DevOps principles with automation, deployment pipelines and immutable infrastructure while avoiding manual changes in the AWS console. Prioritising the use of AWS CloudFormation orchestrated using Python.
       - layout: left
         title: EveryCity
         sub_title: DevOps Engineer
@@ -92,7 +92,7 @@ content:
         link:
         #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Supporting customer operations via support tickets and phone calls. Responding to alerts and escalating where necessary whilst prioritising more important incidents. Recommending infrastructure improvements and adding documentation around processes not already documented. On-boarding new customers via requirements capture, migrating applications to AWS and re-architecting existing infrastructure. Worked with e-commerce customers to scale up production environments before putting thier sale events live.
+          Supporting customer operations via support tickets and phone calls. Responding to alerts and escalating where necessary whilst prioritising more important incidents. Recommending infrastructure improvements and adding documentation around processes that are not already documented. On-boarding new customers via requirements capture, migrating applications to AWS and re-architecting existing infrastructure. Worked with an e-commerce customer base to scale up production environments before large events are put live.
       - layout: left
         title: Ngineered
         sub_title: DevOps Engineer
@@ -150,14 +150,14 @@ content:
         #link: https://kcom.com
         #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Worked closely with youth workers and volunteers to ensure young people within the local community could develop their own music related skills. Tutored young people starting bands in music improvisation and involved in the planning of live music fund raisers whilst employing skills gained at BTEC to sound engineer events.
+          Worked closely with youth workers and volunteers to ensure young people within the local community could develop their own music related skills. Tutored young people starting bands in music improvisation as a session bass player. Involved in the planning of live music fund raisers whilst employing skills gained at BTEC to sound engineer events.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      Away from the office, I'm a long time Debian Linux user that spends too much time writing Discord bots. Bass player of over 15 years and have performed gigs in the past as part of a heavy alternative band.
-      
+      Away from the office, I'm a long time Debian Linux user that spends way too much time writing Discord bots. Bass player of over 15 years and have performed gigs in the past as part of a heavy alternative band.
+
       Always interested in hearing about the latest developments in green technologies and sustainable life choices.
 
 

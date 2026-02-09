@@ -46,7 +46,8 @@ google_analytics: "G-L51QN7J3M6"
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+#about_profile_image: images/profile.jpg
+about_profile_image: https://lh3.googleusercontent.com/pw/AP1GczOFh2IlIu2gZnjwNluD8iZZ7SP_GN3GcGk0H1HEkIW_YDItmXAayx70ree058Va38GtSPMp0FtqHPTOlrby4ryfI92_RMu95yRUbocUZW9XzuhLtWYBDlkn2_xD-Da-gZ95F-Nd9mYdPRJvqCXgms3VeA=w1440-h1440-s-no?authuser=0
 about_content: | # this will include new lines to allow paragraphs
   Hello! My name is Dan and I'm an AWS Certified DevOps Professional that loves all things automation.
 

@@ -48,12 +48,11 @@ google_analytics: "G-L51QN7J3M6"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Dan and I'm an AWS Certified DevOps Professional that loves all things automation. I have experience building and supporting customer projects on a wide range of services offered by Amazon Web Services. Some of my favourite services include: `CloudFormation`, `EC2` and `Codepipeline`. As part of keeping the lights on, I enjoy writing Python scripts that interact with AWS API to make tasks quicker and more repeatable.
+  Hello! My name is Dan and I'm an AWS Certified DevOps Professional that loves all things automation.
 
-  I'm currently working at Nasstar (previously KCOM) as a DevOps Engineer, supporting new and existing AWS based projects using an infrastructure as code approach.
-
-  Skills:
-  `AWS` `Bash` `Python` `Linux` `CI/CD` `IaC` `Git` `Network Engineering` `Cloud Security`
+  Experienced in building and supporting customer projects on a wide range of services offered by AWS. Some of my favourite services include Lambda, EKS and Codebuild. As a fan of infrastructure as code, Terraform is my tool of choice when it comes to implementing a solution.
+  
+  I'm an advocate for remote working and invest that time saved commuting composing music.
 
 content:
   # - title: Projects # Title for the section
@@ -78,9 +77,17 @@ content:
     layout: list
     content:
       - layout: left
+        title: Matrixx Software
+        sub_title: Senior DevOps Engineer
+        caption: December 2022 - Current
+        link: https://www.matrixx.com/ 
+        #quote: > Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Maintaining and improving AWS infrastructure supporting CI/CD systems and internal tooling for software teams across the company. Migrated Jenkins and other build supporting services to a modern hybrid cloud cluster with terraform managed AWS resources. Architected and delivered event-based autoscaling for Jenkins workers via SQS. Built internal automation using python in AWS Lambda to: Whitelist developer IPs based on request header; Detect and delete unused AWS resources in non critical regions; Monitor and email weekly AWS cost summaries by service and region. Shadow release management processes and contribute to stability during release escalations where CI builds or pipelines fail. Drive cost and security optimizations through monitoring, automation, and operational cleanup across the AWS account.
+      - layout: left
         title: Nasstar (previously KCOM)
         sub_title: DevOps Engineer
-        caption: June 2018 - Current
+        caption: June 2018 - December 2022
         link: https://www.nasstar.com
         #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs

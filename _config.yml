@@ -113,13 +113,13 @@ content:
   - title: Certifications
     layout: list
     content:
-      - layout: centre
+      - layout: left
         title: AWS Certified DevOps Engineer - Professional
         caption: Issued October 2020 - Expires October 2023
-      - layout: centre
+      - layout: left
         title: AWS Certified Solutions Architect - Associate
         caption: Issued December 2017 - Expires December 2020
-      - layout: centre
+      - layout: left
         title: Cisco CCNA
         caption: Issued 2016
 

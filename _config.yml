@@ -79,7 +79,7 @@ content:
       - layout: left
         title: Matrixx Software
         sub_title: Senior DevOps Engineer
-        caption: December 2022 - Current
+        caption: December 2021 - Current
         link: https://www.matrixx.com/ 
         #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
@@ -87,7 +87,7 @@ content:
       - layout: left
         title: Nasstar (previously KCOM)
         sub_title: DevOps Engineer
-        caption: June 2018 - December 2022
+        caption: June 2018 - December 2021
         link: https://www.nasstar.com
         #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs

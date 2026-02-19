@@ -90,7 +90,8 @@ content:
             - Whitelist developer IPs based on request header 
             - Detect and delete unused AWS resources in non critical regions 
             - Monitor and email weekly AWS cost summaries by service and region. 
-          - Shadow release management processes and contribute to stability during release escalations where CI builds or pipelines fail.           - Drive cost and security optimizations through monitoring, automation, and operational cleanup across the AWS account.
+          - Shadow release management processes and contribute to stability during release escalations where CI builds or pipelines fail.           
+          - Drive cost and security optimizations through monitoring, automation, and operational cleanup across the AWS account.
       - layout: left
         title: Nasstar (previously KCOM)
         sub_title: DevOps Engineer

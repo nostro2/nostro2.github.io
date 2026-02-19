@@ -51,9 +51,9 @@ about_profile_image: https://lh3.googleusercontent.com/pw/AP1GczOFh2IlIu2gZnjwNl
 about_content: | # this will include new lines to allow paragraphs
   Hello! My name is Dan and I'm an AWS Certified DevOps Professional that loves all things automation.
 
-  Experienced in building and supporting customer projects on a wide range of services offered by AWS. Some of my favourite services include Lambda, EKS and Codebuild. As a fan of infrastructure as code, Terraform is my tool of choice when it comes to implementing a solution.
+  Experienced in building and supporting customer projects on a wide range of services offered by AWS. Some of my favourites include Lambda, EKS and Codebuild. As a fan of infrastructure as code, Terraform is my tool of choice when it comes to implementing a solution.
   
-  I'm an advocate for remote working and invest that time saved commuting composing music.
+  I'm an advocate for remote working and re-invest that time saved commuting into music.
 
 content:
   # - title: Projects # Title for the section
@@ -84,7 +84,13 @@ content:
         link: https://www.matrixx.com/ 
         #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Maintaining and improving AWS infrastructure supporting CI/CD systems and internal tooling for software teams across the company. Migrated Jenkins and other build supporting services to a modern hybrid cloud cluster with terraform managed AWS resources. Architected and delivered event-based autoscaling for Jenkins workers via SQS. Built internal automation using python in AWS Lambda to: Whitelist developer IPs based on request header; Detect and delete unused AWS resources in non critical regions; Monitor and email weekly AWS cost summaries by service and region. Shadow release management processes and contribute to stability during release escalations where CI builds or pipelines fail. Drive cost and security optimizations through monitoring, automation, and operational cleanup across the AWS account.
+          - Maintaining and improving AWS infrastructure supporting CI/CD systems and internal tooling for software teams across the company. 
+          - Migrated Jenkins and other build supporting services to a modern hybrid cloud cluster with terraform managed AWS resources. Architected and delivered event-based autoscaling for Jenkins workers via SQS. 
+          - Built internal automation using python in AWS Lambda to: 
+            - Whitelist developer IPs based on request header 
+            - Detect and delete unused AWS resources in non critical regions 
+            - Monitor and email weekly AWS cost summaries by service and region. 
+          - Shadow release management processes and contribute to stability during release escalations where CI builds or pipelines fail.           - Drive cost and security optimizations through monitoring, automation, and operational cleanup across the AWS account.
       - layout: left
         title: Nasstar (previously KCOM)
         sub_title: DevOps Engineer
@@ -164,10 +170,8 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      Away from the office, I'm a long time Debian Linux user that spends way too much time trying to get things to run under proton.
-      Guitarist of 20+ years, I love spending time at home composing music that I can perform at gigs as part of my live looping project.
-
-      Always interested in hearing about the latest developments in green technologies and sustainable life choices.
+      Away from the office, I'm a long time Debian Linux user that spends way too much time trying to get non linux applications to run under proton.
+      Guitarist of 20+ years, I spend time at home composing music that I can perform at gigs as part of my live looping project.
 
 
 # Footer

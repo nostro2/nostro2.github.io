@@ -100,7 +100,7 @@ content:
         #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           - Provisioning cloud resources for new and existing customer projects using internally maintained CloudFormation templates and developing new template features where necessary. 
-          - Responsible for reviewing and merging code, maintaining current projects and handing projects over to revlevant teams via mentoring and documentation. 
+          - Responsible for reviewing and merging code, maintaining current projects and handing projects over to relevant teams via mentoring and documentation. 
           - Upholding DevOps principles with automation, deployment pipelines and immutable infrastructure while avoiding manual changes in the AWS console. 
           - Prioritising the use of AWS CloudFormation orchestrated using Python.
       - layout: left

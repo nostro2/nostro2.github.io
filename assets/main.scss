@@ -19,6 +19,13 @@ $yellow:  #b58900;
 $orange:  #cb4b16;
 
 
+// ── Header tagline (mobile center) ────────────────────────────────────────
+@media (max-width: 767px) {
+  .header-tagline {
+    text-align: center;
+  }
+}
+
 // ── Download CV button ─────────────────────────────────────────────────────
 .download-cv-btn {
   background: none !important;

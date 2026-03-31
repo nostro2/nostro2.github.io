@@ -3,3 +3,139 @@
 ---
 
 @import 'modern-resume-theme';
+
+// ── Solarized Dark palette ─────────────────────────────────────────────────
+$base03:  #002b36;  // darkest bg
+$base02:  #073642;  // dark bg highlights
+$base01:  #586e75;  // secondary content / comments
+$base00:  #657b83;  // body text (light context)
+$base0:   #839496;  // body text
+$base1:   #93a1a1;  // emphasized text
+$base2:   #eee8d5;  // light bg (unused in dark)
+$cyan:    #2aa198;
+$blue:    #268bd2;
+$green:   #859900;
+$yellow:  #b58900;
+$orange:  #cb4b16;
+
+// ── Download CV button ─────────────────────────────────────────────────────
+.download-cv-btn {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  cursor: pointer;
+}
+
+// ── Base ───────────────────────────────────────────────────────────────────
+body {
+  background-color: $base03 !important;
+  color: $base0 !important;
+}
+
+// ── Header ─────────────────────────────────────────────────────────────────
+header {
+  background-color: $base02 !important;
+  border-bottom: 1px solid $base01;
+
+  h1 { color: $base1 !important; }
+  p   { color: $base01 !important; }
+
+  .contact-container a {
+    color: $base01 !important;
+    transition: color 0.2s ease;
+    &:hover { color: $cyan !important; }
+  }
+}
+
+// ── Profile image ──────────────────────────────────────────────────────────
+#profile-image {
+  border: 3px solid $cyan !important;
+  box-shadow: 0 0 18px rgba(42, 161, 152, 0.3) !important;
+}
+
+// ── Section headings ───────────────────────────────────────────────────────
+h3 {
+  color: $cyan !important;
+  border-bottom: 2px solid $cyan !important;
+  border-bottom-style: solid !important;
+  padding-bottom: 0.4rem;
+}
+
+h4 {
+  color: $base1 !important;
+}
+
+// ── Links ──────────────────────────────────────────────────────────────────
+a {
+  color: $blue !important;
+  &:hover { color: $yellow !important; }
+}
+
+// ── Content blocks ─────────────────────────────────────────────────────────
+.layout {
+  border-bottom: 1px solid $base02;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.details p b,
+.details p strong {
+  color: $orange !important;
+}
+
+.caption {
+  color: $base01 !important;
+  font-size: 0.85em;
+}
+
+// ── Body text ──────────────────────────────────────────────────────────────
+p, li {
+  color: $base0 !important;
+}
+
+// ── Inline code tags (module pills) ───────────────────────────────────────
+code {
+  background-color: $base02 !important;
+  color: $cyan !important;
+  border: 1px solid $base01;
+  border-radius: 3px;
+  padding: 0.1em 0.4em;
+  font-size: 0.85em;
+}
+
+// ── Certifications tiles ───────────────────────────────────────────────────
+.container:has(#certifications) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 12px;
+
+  h3 { width: 100%; }
+
+  .layout {
+    display: flex !important;
+    flex-direction: column;
+    width: auto !important;
+    min-width: 180px;
+    max-width: 260px;
+    background: $base02 !important;
+    border: 1px solid $base01 !important;
+    border-bottom: 1px solid $base01 !important;
+    border-radius: 6px;
+    padding: 14px 16px !important;
+    margin: 0 !important;
+
+    .col-sm-4 { width: 100% !important; flex: none !important; }
+    .col-sm-8 { display: none; }
+
+    h4 { font-size: 1.6rem !important; margin-bottom: 6px; color: $base1 !important; }
+    p  { font-size: 1.2rem !important; margin: 0; color: $base0 !important; }
+  }
+}
+
+// ── Footer ─────────────────────────────────────────────────────────────────
+footer {
+  background-color: $base02 !important;
+  border-top: 1px solid $base01;
+  color: $base01 !important;
+}

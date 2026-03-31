@@ -12,7 +12,7 @@ email:
 website:
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 twitter_username:
@@ -47,7 +47,7 @@ google_analytics: "G-L51QN7J3M6"
 # About Section
 # about_title: About Me
 #about_profile_image: images/profile.jpg
-about_profile_image: https://lh3.googleusercontent.com/pw/AP1GczOFh2IlIu2gZnjwNluD8iZZ7SP_GN3GcGk0H1HEkIW_YDItmXAayx70ree058Va38GtSPMp0FtqHPTOlrby4ryfI92_RMu95yRUbocUZW9XzuhLtWYBDlkn2_xD-Da-gZ95F-Nd9mYdPRJvqCXgms3VeA=w1440-h1440-s-no?authuser=0
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   AWS Certified DevOps Professional with 10+ years of experience, available for contract and consulting engagements. Specialises in scaling infrastructure to enterprise level, with hands-on experience building and supporting customer projects across AWS. Favours infrastructure-as-code using Terraform.
 
@@ -149,8 +149,9 @@ content:
         # quote: >
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
+          **Final Year Project - Secure File Synchronisation**
 
-
+          Developed a Python based file storage application that distributes changes to a group of networked file systems.
 
           Modules include:
 
@@ -180,7 +181,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      Long-time Debian Linux user. Musician with 20+ years experience — I compose and perform using live looping techniques, layering guitar parts in real time to build full arrangements solo.
+      Long-time Debian Linux user. Musician with 20+ years experience, composing and performing using live looping techniques, layering guitar parts in real time to build full arrangements solo.
 
 
 # Footer
@@ -195,4 +196,5 @@ sass:
   style: compressed
 
 plugins:
+ - jekyll-remote-theme
  - jekyll-seo-tag

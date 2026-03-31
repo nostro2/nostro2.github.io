@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Dan R.
-title: Senior Reverse Engineer
+title: IT Consultant
 email:
 website:
 
@@ -82,7 +82,7 @@ content:
       - layout: left
         title: Matrixx Software
         sub_title: Senior DevOps Engineer
-        caption: December 2021 - Current
+        caption: December 2021 - April 2026
         link: https://www.matrixx.com/ 
         #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs

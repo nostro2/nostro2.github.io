@@ -3,7 +3,12 @@
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>
       <h2>{{ site.title | escape }}</h2>
-      {% if site.tagline %}<h3 class="header-tagline">{{ site.tagline | escape }}</h3>{% endif %}
+      {% if site.tagline %}
+      <p class="header-tagline no-print">
+        {% assign skills = site.tagline | split: " | " %}
+        {% for skill in skills %}<code>{{ skill | escape }}</code> {% endfor %}
+      </p>
+      {% endif %}
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">

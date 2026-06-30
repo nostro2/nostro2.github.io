@@ -86,7 +86,7 @@ content:
         #quote: > Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           - Maintaining and improving AWS infrastructure supporting CI/CD systems and internal tooling for software teams across the company. 
-          - Migrated Jenkins and other build supporting services to a modern hybrid cloud cluster with terraform managed AWS resources. Architected and delivered event-based autoscaling for Jenkins workers via SQS. 
+          - Migrated Jenkins and other build supporting services to a modern hybrid cloud cluster using helm alongside terraform managed AWS resources. Architected and delivered event-based autoscaling for Jenkins workers via SQS. 
           - Built internal automation using python in AWS Lambda to: 
             - Whitelist developer IPs based on request header 
             - Detect and delete unused AWS resources in non critical regions 

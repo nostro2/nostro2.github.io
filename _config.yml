@@ -152,9 +152,9 @@ content:
         quote: >
           The coolest side project I've built.
         description: | # this will include new lines to allow paragraphs
-          I kept catching myself breaking my own trading rules — holding losers too long, taking profits too early — so I used AI-assisted software development to build a bot that takes the emotion out entirely and sticks to the strategy no matter what. It reads market data, decides buy, sell or hold, and places orders with pre-set exit points, so every decision is made by the rules I wrote when I was thinking clearly — not by me in the moment.
+          I kept catching myself breaking my own trading rules, holding losers too long, taking profits too early. I used AI-assisted software development to build a bot that takes the emotion out entirely and sticks to the strategy no matter what. It reads market data, decides buy, sell or hold, and places orders with pre-set exit points, so every decision is made by the rules I wrote when I was thinking clearly and not by me in the moment.
 
-          A nightly AI agent maintains it: it reviews the codebase, fixes the most important bug it finds, and raises a GitHub pull request for me to approve — the bot pulls the approved code next time it starts up. My job has shifted from writing the code to reviewing it.
+          A nightly AI agent maintains it: it reviews the codebase, fixes the most important bug it finds, and raises a GitHub pull request for me to approve, the bot pulls the approved code next time it starts up. My job has shifted from writing the code to reviewing it.
 
           Live trading sits behind four explicit switches that all have to be deliberately turned on, so the bot can't spend real money by accident. It is covered by 61 automated tests and is currently proving itself on a practice account before it touches a real one.
 

@@ -50,7 +50,7 @@ google_analytics: "G-L51QN7J3M6"
 #about_profile_image: images/profile.jpg
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  AWS Certified DevOps Professional with 10+ years of experience, available for contract and consulting engagements. Specialises in scaling infrastructure to enterprise level, with hands-on experience building and supporting customer projects across AWS. Favours infrastructure-as-code using Terraform.
+  AWS Certified DevOps Professional with 10+ years of experience, available for full-time, contract and consulting engagements. Specialises in scaling infrastructure to enterprise level, with hands-on experience building and supporting customer projects across AWS. Favours infrastructure-as-code using Terraform.
 
 
 content:

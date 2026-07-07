@@ -11,7 +11,7 @@ ATS-safe resume: site is the resume source; PDF made via header download button 
 
 ## Exact Stop Point
 
-Committed and pushed c67cf92 (skills/experience/summary expansion) on top of c5edd77; config grep for personal info = 0 hits before push. GitHub Pages rebuilding.
+Committed and pushed b3104a8 (Projects section, below Experience) after c67cf92 (skills/experience/summary expansion); config grep for personal info = 0 hits before each push. GitHub Pages rebuilding.
 
 ## What Was Just Done
 

@@ -50,7 +50,7 @@ about_title: Summary
 #about_profile_image: images/profile.jpg
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  AWS DevOps specialist with 10+ years of experience, available for full-time, contract and consulting engagements. Specialises in scaling infrastructure to enterprise level, with hands-on experience building and supporting customer projects across AWS. Favours infrastructure-as-code using Terraform.
+  AWS DevOps specialist with 10+ years of experience, available for full-time, contract and consulting engagements. Owns CI/CD platforms end-to-end — Jenkins on Kubernetes (EKS), Terraform-managed infrastructure, Docker build pipelines — with a track record of scaling infrastructure to enterprise level and driving cost optimisation through monitoring and automation. Recent work includes self-hosted LLM infrastructure on EKS and AI-assisted delivery, shipping a client MVP in one week.
 
 
 content:
@@ -75,7 +75,7 @@ content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      AWS (Lambda, SQS, IAM, CloudWatch), Terraform, CloudFormation, Kubernetes, Helm, Jenkins, GitHub Actions, CI/CD, Python, Serverless Architecture, Linux (Debian), Git, Cloud Cost Optimisation, Infrastructure Monitoring, AI-Assisted Software Development
+      AWS (Lambda, SQS, IAM, CloudWatch, EKS), Terraform, CloudFormation, Ansible, Docker, Docker Compose, Kubernetes, Helm, Jenkins, GitHub Actions, CI/CD, Python, Bash, TypeScript, Serverless Architecture, Cloudflare Workers, Linux (Debian), Git, Cloud Cost Optimisation, Observability & Monitoring, LLM Infrastructure (EKS, Ollama, RAG), AI-Assisted Software Development
 
   - title: Experience
     layout: list
@@ -96,6 +96,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Maintaining and improving AWS infrastructure supporting CI/CD systems and internal tooling for software teams across the company.
           - Migrated Jenkins and other build supporting services to a modern hybrid cloud cluster using helm alongside terraform managed AWS resources. Architected and delivered event-based autoscaling for Jenkins workers via SQS.
+          - Owned the Docker images and build pipelines for C++ and Java services, publishing versioned images to an internal registry.
+          - Built a CloudWatch dashboard for the EKS build cluster covering SQS queue depth, CPU, memory, disk I/O and network throughput, then used the metrics to right-size build instances and tune build parallelism.
+          - Managed the Helm charts used to deploy the product to customer Kubernetes clusters, supporting release engineers during customer escalations.
+          - Set up and operated an EKS cluster running self-hosted LLMs via Ollama for a development team's RAG pipeline. Kept running costs low by scaling GPU worker nodes on demand through a retrofitted Lambda endpoint, balancing cold-start latency against pre-warming cost.
           - Built internal automation using python in AWS Lambda to:
             - Whitelist developer IPs based on request header
             - Detect and delete unused AWS resources in non critical regions
@@ -112,6 +116,7 @@ content:
           - Provisioning cloud resources for new and existing customer projects using internally maintained CloudFormation templates and developing new template features where necessary.
           - Responsible for reviewing and merging code, maintaining current projects and handing projects over to relevant teams via mentoring and documentation.
           - Upholding DevOps principles with automation, deployment pipelines and immutable infrastructure while avoiding manual changes in the AWS console.
+          - Managing customer configuration with Ansible alongside CloudFormation-provisioned infrastructure.
           - Prioritising the use of AWS CloudFormation orchestrated using Python.
       - layout: left
         title: EveryCity
@@ -124,6 +129,7 @@ content:
           - Responding to alerts and escalating where necessary whilst prioritising more important incidents.
           - Recommending infrastructure improvements and adding documentation around processes that are not already documented.
           - On-boarding new customers via requirements capture, migrating applications to AWS and re-architecting existing infrastructure.
+          - Managing customer server configuration with Ansible.
           - Worked with an e-commerce customer base to scale up production environments before large events are put live.
       - layout: left
         title: Ngineered
@@ -191,7 +197,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      Long-time Debian Linux user. Musician with 20+ years experience, composing and performing using live looping techniques, layering guitar parts in real time to build full arrangements solo.
+      Long-time Debian Linux user running a home lab of self-hosted services — local LLM stack (Ollama, GPU-accelerated), Docker Compose deployments, and monitoring tooling. Musician with 20+ years experience, composing and performing using live looping techniques, layering guitar parts in real time to build full arrangements solo.
 
 
 # Footer

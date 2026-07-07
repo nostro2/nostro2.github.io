@@ -1,5 +1,5 @@
 ---
-last_updated: 2026-07-07 15:10
+last_updated: 2026-07-07 16:15
 status: active
 ---
 
@@ -11,18 +11,18 @@ ATS-safe resume: site is the resume source; PDF made via header download button 
 
 ## Exact Stop Point
 
-ATS fixes done + personal details moved to gitignored `.env`; public site stays "Dan R." with no email, so pushing is now safe. NOT yet committed/pushed.
+Committed (c5edd77, rebased onto remote "full-time" wording edit) and pushed; live site verified anonymous ("Dan R.", 0 personal-info hits) on 2026-07-07.
 
 ## What Was Just Done
 
-- Diagnosed old resume PDF ATS failure (Firefox print: left column missing from text layer, fi/digit ligatures → �, no contact info).
-- Fixed `_config.yml`, `_includes/header.html`, `assets/main.scss` (see CHANGELOG).
-- Verified with headless Chromium print + pdftotext: clean single-column text layer, 0 corrupted glyphs.
-- Verified PDF copied to `~/Downloads/Daniel Robertson - Cloud Solutions Consultant.pdf`.
+- Audited `resume/memory/` (user_skills.md, interview_matrixx.md) for content missing from site.
+- `_config.yml` (uncommitted): Skills line gained Docker, Bash, EKS, then Ansible, Docker Compose, TypeScript, Cloudflare Workers, Observability, LLM Infrastructure; Matrixx gained four bullets (Docker image ownership, EKS CloudWatch build dashboard, customer Helm delivery, EKS LLM/RAG cluster). YAML validated.
+- New user facts saved to resume memory: Ansible (EveryCity + KCOM, bullets added to both), Matrixx EKS LLM/RAG cluster (Ollama, Lambda-scaled GPU nodes, pre-warm tradeoff — expanded bullet + interview story).
+- Skipped deliberately: Maven/Java (flagged weak in resume memory — don't advertise), wifi-pentest/network-gremlin projects.
 
 ## Next Action
 
-Commit + push when user asks (public build verified anonymous). Detailed CV PDF: run `bin/build-cv` (needs `.env` with CV_FULL_NAME/CV_EMAIL). Site download button = anonymous version; print via Chrome, not Firefox.
+User to review new Skills/Matrixx wording, then commit + push. Detailed CV PDF: run `bin/build-cv` (needs `.env` with CV_FULL_NAME/CV_EMAIL). Site download button = anonymous version; print via Chrome, not Firefox.
 
 ## Working Context
 

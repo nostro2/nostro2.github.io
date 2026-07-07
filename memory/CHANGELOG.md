@@ -15,6 +15,7 @@ last_updated: 2026-07-07
   - New facts persisted to `resume/memory/user_skills.md` and `interview_matrixx.md`.
 - Third round (2026-07-07): Ansible confirmed at EveryCity + KCOM — bullet added to each; Matrixx RAG bullet expanded (Ollama, Lambda-driven GPU node scaling, cold-start vs pre-warm tradeoff). Resume memory updated to match.
 - Summary rewritten (2026-07-07): now covers CI/CD platform ownership, Jenkins on EKS, Docker pipelines, cost optimisation, LLM infra, one-week MVP. Interests gained home-lab sentence (local LLM stack, Docker Compose, monitoring).
+- New Projects section above Experience (2026-07-07): rosebud trading bot — emotion-free trading angle, nightly self-maintenance AI agent (PR-gated), four safety switches, 61 tests, practice-account status. No repo link (private).
 
 ## c5edd77 (committed 2026-07-07)
 

@@ -11,7 +11,7 @@ ATS-safe resume: site is the resume source; PDF made via header download button 
 
 ## Exact Stop Point
 
-Committed (c5edd77, rebased onto remote "full-time" wording edit) and pushed; live site verified anonymous ("Dan R.", 0 personal-info hits) on 2026-07-07.
+Committed and pushed c67cf92 (skills/experience/summary expansion) on top of c5edd77; config grep for personal info = 0 hits before push. GitHub Pages rebuilding.
 
 ## What Was Just Done
 

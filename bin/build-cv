@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+# Build the CV PDF with personal details from .env (never committed).
+# The public site build stays anonymous ("Dan R.", no email).
+#
+# Usage: bin/build-cv [output.pdf]
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+[ -f .env ] && . ./.env
+: "${CV_FULL_NAME:?CV_FULL_NAME not set — add it to .env}"
+: "${CV_EMAIL:?CV_EMAIL not set — add it to .env}"
+
+OUT="${1:-$HOME/Downloads/${CV_FULL_NAME} - CV.pdf}"
+PORT=4126
+
+cat > _config.local.yml <<EOF
+name: ${CV_FULL_NAME}
+email: ${CV_EMAIL}
+EOF
+
+cleanup() {
+  [ -n "${SERVER_PID:-}" ] && kill "$SERVER_PID" 2>/dev/null || true
+  rm -f _config.local.yml
+}
+trap cleanup EXIT
+
+bundle exec jekyll build --config _config.yml,_config.local.yml
+
+python3 -m http.server "$PORT" --directory _site >/dev/null 2>&1 &
+SERVER_PID=$!
+sleep 1
+
+chromium --headless --disable-gpu --no-pdf-header-footer \
+  --print-to-pdf="$OUT" "http://127.0.0.1:${PORT}/" 2>/dev/null
+
+# Restore the anonymous public build in _site
+kill "$SERVER_PID" 2>/dev/null; SERVER_PID=""
+rm -f _config.local.yml
+bundle exec jekyll build >/dev/null
+
+echo "CV written to: $OUT"

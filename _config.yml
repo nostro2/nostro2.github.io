@@ -46,11 +46,11 @@ linkedin_username: 4wh3xnsr1nis
 google_analytics: "G-L51QN7J3M6"
 
 # About Section
-# about_title: About Me
+about_title: Summary
 #about_profile_image: images/profile.jpg
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  AWS Certified DevOps Professional with 10+ years of experience, available for full-time, contract and consulting engagements. Specialises in scaling infrastructure to enterprise level, with hands-on experience building and supporting customer projects across AWS. Favours infrastructure-as-code using Terraform.
+  AWS DevOps specialist with 10+ years of experience, available for full-time, contract and consulting engagements. Specialises in scaling infrastructure to enterprise level, with hands-on experience building and supporting customer projects across AWS. Favours infrastructure-as-code using Terraform.
 
 
 content:
@@ -72,20 +72,21 @@ content:
   #         Short overview of the project (optional)
   #       description: | # this will include new lines to allow paragraphs
   #         Description about the work on/with the project
-  - title: Snippets
-    layout: list
-    content:
-      - layout: left
-        title: GIS Contract
-        sub_title: Cloud Solutions Consultant
-        caption: April 2026
-        link:
-        description: | # this will include new lines to allow paragraphs
-          Worked with a GIS consultancy to transform early stage wireframes into a production ready MVP. Met directly with the client and end users to scope requirements and gather feedback throughout delivery. Designed and implemented a serverless AWS architecture, terraform based infrastructure and GitHub Actions CI/CD pipelines. Leveraged AI assisted software development practices to accelerate delivery, successfully launching the first MVP within one week and presenting the solution at the VibeHops AI meetup in Colchester.
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      AWS (Lambda, SQS, IAM, CloudWatch), Terraform, CloudFormation, Kubernetes, Helm, Jenkins, GitHub Actions, CI/CD, Python, Serverless Architecture, Linux (Debian), Git, Cloud Cost Optimisation, Infrastructure Monitoring, AI-Assisted Software Development
 
   - title: Experience
     layout: list
     content:
+      - layout: left
+        title: GIS Consultancy (Contract)
+        sub_title: Cloud Solutions Consultant
+        caption: April 2026 - May 2026
+        link:
+        description: | # this will include new lines to allow paragraphs
+          Worked with a GIS consultancy to transform early stage wireframes into a production ready MVP. Met directly with the client and end users to scope requirements and gather feedback throughout delivery. Designed and implemented a serverless AWS architecture, terraform based infrastructure and GitHub Actions CI/CD pipelines. Leveraged AI assisted software development practices to accelerate delivery, successfully launching the first MVP within one week and presenting the solution at the VibeHops AI meetup in Colchester.
       - layout: left
         title: Matrixx Software
         sub_title: Senior DevOps Engineer
@@ -140,10 +141,10 @@ content:
     content:
       - layout: left
         title: AWS Certified DevOps Engineer - Professional
-        caption: Issued October 2020 - Expires October 2023
+        caption: Issued October 2020 (expired October 2023)
       - layout: left
         title: AWS Certified Solutions Architect - Associate
-        caption: Issued December 2017 - Expires December 2020
+        caption: Issued December 2017 (expired December 2020)
       - layout: left
         title: Cisco CCNA
         caption: Issued 2016
@@ -186,7 +187,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Worked closely with youth workers and volunteers to ensure young people within the local community could develop their own music related skills. Tutored young people starting bands in music improvisation as a session bass player. Involved in the planning of live music fund raisers whilst employing skills gained at BTEC to live sound engineer events.
 
-  - title: A Little More About Me
+  - title: Interests
     layout: text
     content: | # this will include new lines to allow paragraphs
 

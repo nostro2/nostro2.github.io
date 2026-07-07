@@ -1,0 +1,9 @@
+# Personal details for local CV builds — never commit
+.env
+_config.local.yml
+
+# Build artifacts
+_site/
+vendor/
+.bundle/
+.jekyll-cache/

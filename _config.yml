@@ -50,7 +50,7 @@ about_title: Summary
 #about_profile_image: images/profile.jpg
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  AWS DevOps specialist with 10+ years of experience, available for full-time, contract and consulting engagements. Owns CI/CD platforms end-to-end — Jenkins on Kubernetes (EKS), Terraform-managed infrastructure, Docker build pipelines — with a track record of scaling infrastructure to enterprise level and driving cost optimisation through monitoring and automation. Recent work includes self-hosted LLM infrastructure on EKS and AI-assisted delivery, shipping a client MVP in one week.
+  AWS DevOps specialist with 10+ years of experience, available for full-time, contract and consulting engagements. Owns CI/CD platforms end-to-end, Jenkins on Kubernetes (EKS), Terraform-managed infrastructure, Docker build pipelines, with a track record of scaling infrastructure to enterprise level and driving cost optimisation through monitoring and automation. Recent work includes self-hosted LLM infrastructure on EKS and AI-assisted delivery, shipping a client MVP in one week.
 
 
 content:

@@ -15,6 +15,9 @@ Committed and pushed b3104a8 (Projects section, below Experience) after c67cf92 
 
 ## What Was Just Done
 
+- Pushed 13a5a47 (skills pills, Hetzner bullet, em dash purge) + 690d5a7 (memory). Personal-info grep = 0.
+- main.scss: body text white (#fff) via new $body-text var; replaced $base0 in body, p/li, cert-tile p. Print CSS untouched (stays black). Built OK, compiled CSS verified. Uncommitted.
+
 - Skills section reformatted: comma list → backtick-wrapped items (same pill style as Education modules). YAML validated, uncommitted.
 - Trading bot project: new bullet, runs unattended on Hetzner cloud server (chosen over AWS for cost + multi-provider breadth). Uncommitted.
 - Purged all em dashes from _config.yml (user rule: no em dashes anywhere on resume; see also commit 3291e8e "remove dashes"). Lines 164/165 split to sentences, line 225 to colon. Grep = 0 hits.

@@ -9,7 +9,8 @@ $base03:  #002b36;  // darkest bg
 $base02:  #073642;  // dark bg highlights
 $base01:  #586e75;  // secondary content / comments
 $base00:  #657b83;  // body text (light context)
-$base0:   #839496;  // body text
+$base0:   #839496;  // body text (Solarized default, unused — overridden by $body-text)
+$body-text: #ffffff; // body text: white for contrast pop
 $base1:   #93a1a1;  // emphasized text
 $base2:   #eee8d5;  // light bg (unused in dark)
 $cyan:    #2aa198;
@@ -37,7 +38,7 @@ $orange:  #cb4b16;
 // ── Base ───────────────────────────────────────────────────────────────────
 body {
   background-color: $base03 !important;
-  color: $base0 !important;
+  color: $body-text !important;
 }
 
 // ── Header ─────────────────────────────────────────────────────────────────
@@ -98,7 +99,7 @@ a {
 
 // ── Body text ──────────────────────────────────────────────────────────────
 p, li {
-  color: $base0 !important;
+  color: $body-text !important;
 }
 
 // ── Inline code tags (module pills) ───────────────────────────────────────
@@ -137,7 +138,7 @@ code {
     .col-sm-8 { display: none; }
 
     h4 { font-size: 1.6rem !important; margin-bottom: 6px; color: $base1 !important; }
-    p  { font-size: 1.2rem !important; margin: 0; color: $base0 !important; }
+    p  { font-size: 1.2rem !important; margin: 0; color: $body-text !important; }
   }
 }
 

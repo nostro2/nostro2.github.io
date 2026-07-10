@@ -86,7 +86,10 @@ content:
         caption: April 2026 - May 2026
         link:
         description: | # this will include new lines to allow paragraphs
-          Worked with a GIS consultancy to transform early stage wireframes into a production ready MVP. Met directly with the client and end users to scope requirements and gather feedback throughout delivery. Designed and implemented a serverless AWS architecture, terraform based infrastructure and GitHub Actions CI/CD pipelines. Leveraged AI assisted software development practices to accelerate delivery, successfully launching the first MVP within one week and presenting the solution at the VibeHops AI meetup in Colchester.
+          - Worked with a GIS consultancy to transform early stage wireframes into a production ready MVP.
+          - Met directly with the client and end users to scope requirements and gather feedback throughout delivery.
+          - Designed and implemented a serverless AWS architecture, terraform based infrastructure and GitHub Actions CI/CD pipelines.
+          - Leveraged AI assisted software development practices to accelerate delivery, successfully launching the first MVP within one week and presenting the solution at the VibeHops AI meetup in Colchester.
       - layout: left
         title: Matrixx Software
         sub_title: Senior DevOps Engineer
@@ -152,11 +155,10 @@ content:
         quote: >
           The coolest side project I've built.
         description: | # this will include new lines to allow paragraphs
-          I kept catching myself breaking my own trading rules, holding losers too long, taking profits too early. I used AI-assisted software development to build a bot that takes the emotion out entirely and sticks to the strategy no matter what. It reads market data, decides buy, sell or hold, and places orders with pre-set exit points, so every decision is made by the rules I wrote when I was thinking clearly and not by me in the moment.
-
-          A nightly AI agent maintains it: it reviews the codebase, fixes the most important bug it finds, and raises a GitHub pull request for me to approve, the bot pulls the approved code next time it starts up. My job has shifted from writing the code to reviewing it.
-
-          Live trading sits behind four explicit switches that all have to be deliberately turned on, so the bot can't spend real money by accident. It is covered by 61 automated tests and is currently proving itself on a practice account before it touches a real one.
+          - Built a bot using AI-assisted software development that takes the emotion out of trading entirely — it reads market data, decides buy, sell or hold, and places orders with pre-set exit points, so every decision is made by rules written when thinking clearly, not in the moment.
+          - Maintained by a nightly AI agent that reviews the codebase, fixes the most important bug it finds, and raises a GitHub pull request for approval — the bot pulls approved code next time it starts up, shifting my job from writing the code to reviewing it.
+          - Live trading sits behind four explicit switches that all have to be deliberately turned on, so the bot can't spend real money by accident.
+          - Covered by 61 automated tests and currently proving itself on a practice account before it touches a real one.
 
   - title: Certifications
     layout: list

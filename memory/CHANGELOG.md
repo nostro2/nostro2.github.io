@@ -1,10 +1,12 @@
 ---
-last_updated: 2026-07-07
+last_updated: 2026-07-10
 ---
 
 # Changelog — nostro2.github.io
 
 ## [Unreleased] (local, not yet committed/pushed)
+
+- Consistency pass (2026-07-10): GIS Consultancy and trading-bot Projects descriptions converted from paragraphs to bullet lists to match other Experience entries. Trading bot lost the "kept breaking my own rules" intro anecdote in the conversion (quote line retained).
 
 - Skills/experience additions from `resume/memory/` audit (2026-07-07):
   - Skills line: added Docker, Bash, EKS (Docker was flagged strongest area in [[user_skills]] yet absent from site).

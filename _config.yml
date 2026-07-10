@@ -75,7 +75,7 @@ content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      AWS (Lambda, SQS, IAM, CloudWatch, EKS), Terraform, CloudFormation, Ansible, Docker, Docker Compose, Kubernetes, Helm, Jenkins, GitHub Actions, CI/CD, Python, Bash, TypeScript, Serverless Architecture, Cloudflare Workers, Linux (Debian), Git, Cloud Cost Optimisation, Observability & Monitoring, LLM Infrastructure (EKS, Ollama, RAG), AI-Assisted Software Development
+      `AWS (Lambda, SQS, IAM, CloudWatch, EKS, CodeBuild)` `Terraform` `CloudFormation` `Ansible` `Docker` `Docker Compose` `Kubernetes` `Helm` `Jenkins` `GitHub Actions` `CI/CD` `Artifact Management (Artifactory)` `Python` `Bash` `TypeScript` `Serverless Architecture` `Cloudflare Workers` `Linux (Debian)` `Git` `Cloud Cost Optimisation` `Observability & Monitoring` `MkDocs` `LLM Infrastructure (EKS, Ollama, RAG)` `AI-Assisted Software Development`
 
   - title: Experience
     layout: list
@@ -99,15 +99,21 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Maintaining and improving AWS infrastructure supporting CI/CD systems and internal tooling for software teams across the company.
           - Migrated Jenkins and other build supporting services to a modern hybrid cloud cluster using helm alongside terraform managed AWS resources. Architected and delivered event-based autoscaling for Jenkins workers via SQS.
+          - Restructured the Terraform estate across multiple AWS accounts and teams, backed by shared S3 remote state with DynamoDB locking.
+          - Provisioned the on-premise side of the hybrid build fleet as code, creating Jenkins build agent VMs with Terraform, cloud-init and Ansible.
           - Owned the Docker images and build pipelines for C++ and Java services, publishing versioned images to an internal registry.
+          - Contributed to the Groovy shared pipeline library used by engineering teams across the company, including automated promotion of release builds and CI tooling improvements.
           - Built a CloudWatch dashboard for the EKS build cluster covering SQS queue depth, CPU, memory, disk I/O and network throughput, then used the metrics to right-size build instances and tune build parallelism.
           - Managed the Helm charts used to deploy the product to customer Kubernetes clusters, supporting release engineers during customer escalations.
-          - Set up and operated an EKS cluster running self-hosted LLMs via Ollama for a development team's RAG pipeline. Kept running costs low by scaling GPU worker nodes on demand through a retrofitted Lambda endpoint, balancing cold-start latency against pre-warming cost.
+          - Set up and operated an EKS cluster running self-hosted LLMs via Ollama for a development team's RAG pipeline, secured behind an OAuth2 reverse proxy. Kept running costs low by scaling GPU worker nodes on demand through a retrofitted Lambda endpoint, balancing cold-start latency against pre-warming cost.
           - Built internal automation using python in AWS Lambda to:
             - Whitelist developer IPs based on request header
             - Detect and delete unused AWS resources in non critical regions
             - Monitor and email weekly AWS cost summaries by service and region.
-          - Shadow release management processes and contribute to stability during release escalations where CI builds or pipelines fail.
+          - Contributed to release automation publishing Docker images and Helm charts to multiple artifact registries, and supported stability during release escalations where CI builds or pipelines fail.
+          - Wrote the initial Python tooling that generates per-release SBOM vulnerability reports, giving release engineers visibility of known CVEs in each shipped version.
+          - Built a parameter-driven generic AWS CodeBuild job enabling teams to deploy any internal project without bespoke pipeline setup.
+          - Maintained the internal engineering documentation site (MkDocs Material) with containerised local builds.
           - Drive cost and security optimizations through monitoring, automation, and operational cleanup across the AWS account.
       - layout: left
         title: KCOM
@@ -155,8 +161,9 @@ content:
         quote: >
           The coolest side project I've built.
         description: | # this will include new lines to allow paragraphs
-          - Built a bot using AI-assisted software development that takes the emotion out of trading entirely — it reads market data, decides buy, sell or hold, and places orders with pre-set exit points, so every decision is made by rules written when thinking clearly, not in the moment.
-          - Maintained by a nightly AI agent that reviews the codebase, fixes the most important bug it finds, and raises a GitHub pull request for approval — the bot pulls approved code next time it starts up, shifting my job from writing the code to reviewing it.
+          - Built a bot using AI-assisted software development that takes the emotion out of trading entirely. It reads market data, decides buy, sell or hold, and places orders with pre-set exit points, so every decision is made by rules written when thinking clearly, not in the moment.
+          - Maintained by a nightly AI agent that reviews the codebase, fixes the most important bug it finds, and raises a GitHub pull request for approval. The bot pulls approved code next time it starts up, shifting my job from writing the code to reviewing it.
+          - Runs unattended on a Hetzner cloud server, deliberately chosen over AWS to keep running costs near zero and prove out infrastructure beyond one provider.
           - Live trading sits behind four explicit switches that all have to be deliberately turned on, so the bot can't spend real money by accident.
           - Covered by 61 automated tests and currently proving itself on a practice account before it touches a real one.
 
@@ -215,7 +222,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      Long-time Debian Linux user running a home lab of self-hosted services — local LLM stack (Ollama, GPU-accelerated), Docker Compose deployments, and monitoring tooling. Musician with 20+ years experience, composing and performing using live looping techniques, layering guitar parts in real time to build full arrangements solo.
+      Long-time Debian Linux user running a home lab of self-hosted services: local LLM stack (Ollama, GPU-accelerated), Docker Compose deployments, and monitoring tooling. Musician with 20+ years experience, composing and performing using live looping techniques, layering guitar parts in real time to build full arrangements solo.
 
 
 # Footer

@@ -1,5 +1,5 @@
 ---
-last_updated: 2026-07-07 16:15
+last_updated: 2026-07-10
 status: active
 ---
 
@@ -15,6 +15,9 @@ Committed and pushed b3104a8 (Projects section, below Experience) after c67cf92 
 
 ## What Was Just Done
 
+- Skills section reformatted: comma list → backtick-wrapped items (same pill style as Education modules). YAML validated, uncommitted.
+- Trading bot project: new bullet, runs unattended on Hetzner cloud server (chosen over AWS for cost + multi-provider breadth). Uncommitted.
+- Purged all em dashes from _config.yml (user rule: no em dashes anywhere on resume; see also commit 3291e8e "remove dashes"). Lines 164/165 split to sentences, line 225 to colon. Grep = 0 hits.
 - Audited `resume/memory/` (user_skills.md, interview_matrixx.md) for content missing from site.
 - `_config.yml` (uncommitted): Skills line gained Docker, Bash, EKS, then Ansible, Docker Compose, TypeScript, Cloudflare Workers, Observability, LLM Infrastructure; Matrixx gained four bullets (Docker image ownership, EKS CloudWatch build dashboard, customer Helm delivery, EKS LLM/RAG cluster). YAML validated.
 - New user facts saved to resume memory: Ansible (EveryCity + KCOM, bullets added to both), Matrixx EKS LLM/RAG cluster (Ollama, Lambda-scaled GPU nodes, pre-warm tradeoff — expanded bullet + interview story).
